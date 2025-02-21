@@ -62,3 +62,8 @@ document.querySelector('#stop-record').addEventListener('click',(e)=>{stopRecord
 document.querySelector('#play-record').addEventListener('click',(e)=>{playRecording(e)})
 
 document.querySelector('#share-screen').addEventListener('click',(e)=>{shareScreen(e)})
+
+
+document.querySelector('#audio-input').addEventListener('change',(e)=>{changeAudioInput(e)})
+document.querySelector('#audio-output').addEventListener('change',(e)=>{changeAudioOutput(e)})
+document.querySelector('#video-input').addEventListener('change',(e)=>{changeVideoInput(e)})
